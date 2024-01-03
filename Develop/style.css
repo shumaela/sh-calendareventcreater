@@ -31,12 +31,12 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background-color: gray;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: red;
   color: white;
 }
 
