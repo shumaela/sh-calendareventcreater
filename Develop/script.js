@@ -43,7 +43,7 @@ $(document).ready(function () {
 
   // Function to update the time-block colors based on the current time
   function updateColors() {
-    var currentHour = dayjs().hour();
+    var currentHour = dayjs().hour() 
 
     $(".time-block").each(function () {
       var blockHour = parseInt($(this).attr("id").split("-")[1]);
